@@ -26,7 +26,7 @@ const CourseCard = ({
 
         <p className='text-gray-600 mb-6'>{description}</p>
 
-        <ul className='space-y-3 mt-auto'>
+        <ul className='space-y-3'>
           {highlights.map((highlight, index) => (
             <li
               key={index}
