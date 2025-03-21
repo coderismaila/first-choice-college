@@ -168,6 +168,14 @@ const ApplicationSection = () => {
             </div>
           </div>
         </div>
+        <div className='max-w-md mx-auto mt-6 md:hidden'>
+          <img
+            src='/admission.jpg'
+            alt='Admission Image'
+            className='w-full h-full object-contain animate-fade-in'
+            style={{ animationDelay: '0.3s' }}
+          />
+        </div>
       </div>
     </section>
   )

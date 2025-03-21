@@ -6,19 +6,16 @@ const HeroSection = () => {
       id='home'
       className='relative h-screen min-h-[800px] flex items-center justify-center overflow-hidden'
     >
-      {/* Background image with overlay */}
       <div
         className='absolute inset-0 bg-cover bg-center'
         style={{
-          backgroundImage:
-            "url('/lovable-uploads/7f0fe8ad-2509-44cd-a377-be620b47922b.png')",
+          backgroundImage: "url('/logo.jpg')",
           filter: 'blur(3px)',
           transform: 'scale(1.1)',
         }}
       />
       <div className='absolute inset-0 bg-gradient-to-r from-college-blue/90 to-college-dark-blue/90' />
 
-      {/* Hero content */}
       <div className='relative z-10 text-center px-6 max-w-5xl mx-auto'>
         <div className='animate-fade-in'>
           <h1 className='font-bold text-4xl md:text-6xl lg:text-7xl text-white mb-6 leading-tight shimmer-effect'>

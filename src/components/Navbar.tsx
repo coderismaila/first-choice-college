@@ -41,9 +41,9 @@ const Navbar = () => {
         <a href='#home' className='flex items-center gap-2'>
           <div className='h-10 w-10 rounded-full bg-college-blue flex items-center justify-center overflow-hidden'>
             <img
-              src='/admission.jpg'
+              src='/logo.jpg'
               alt='College Logo'
-              className='w-20 h-20 object-cover'
+              className='w-20 h-20 object-contain'
             />
           </div>
           <span

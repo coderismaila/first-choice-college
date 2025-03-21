@@ -99,13 +99,13 @@ const AboutSection = () => {
           </div>
 
           <div
-            className='flex-1 bg-gray-200 rounded-lg overflow-hidden shadow-lg transform transition-all duration-500 hover:scale-105 animate-scale-in'
+            className='flex-1 overflow-hidden transform transition-all duration-500 hover:scale-105 animate-scale-in'
             style={{ animationDelay: '0.5s' }}
           >
             <img
-              src='/admission.jpg'
+              src='/logo.jpg'
               alt='College Facilities'
-              className='w-full h-96 object-cover'
+              className='w-full h-96 object-contain'
             />
           </div>
         </div>

@@ -2,7 +2,7 @@ import { Mail, Phone, MapPin } from 'lucide-react'
 
 const ContactSection = () => {
   return (
-    <section id='contact' className='py-10 bg-white overflow-hidden'>
+    <section id='contact' className='py-0 bg-white overflow-hidden'>
       <div className='section-container'>
         <div className='text-center mb-16 animate-fade-in'>
           <h2 className='section-title mx-auto'>Contact Us</h2>
